@@ -324,6 +324,11 @@ div > .webDevelopment {
     font-family: 'Assistant', sans-serif;
     box-shadow: black 1px 3px;
     border-radius: 0px 15px 0px 50px;
+    transition-duration: 0.2s;
+}
+.topBox > button:hover {
+    background-color: #560000;
+    box-shadow: black 3px 3px;
 }
 .middleBox > button {
     width: 392px;
@@ -335,6 +340,8 @@ div > .webDevelopment {
     font-family: 'Assistant', sans-serif;
     box-shadow: black 1px 3px;
     border-radius: 0px 15px 0px 50px;
+    opacity: 0.7;
+    cursor: not-allowed;
 }
 .bottomBox > button {
     width: 392px;
@@ -346,6 +353,8 @@ div > .webDevelopment {
     font-family: 'Assistant', sans-serif;
     box-shadow: black 1px 3px;
     border-radius: 0px 15px 0px 50px;
+    opacity:0.7;
+    cursor: not-allowed;
 }
 #myWork > h1 {
     color: white;
